@@ -1,0 +1,12 @@
+{
+  "name": "wp-gutenberg-site-options",
+  "version": "1.0.0",
+  "description": "A starter plugin adding Gutenberg-powered options to a Core WordPress options page.",
+  "repository": {
+    "url": "https://github.com/jomurgel/wp-gutenberg-site-options"
+  },
+  "main": "",
+  "scripts": {},
+  "author": "dev@jomurgel.com",
+  "license": "MIT"
+}
