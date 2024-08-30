@@ -10,7 +10,7 @@
  *
  * @link              https://jomurgel.com
  * @since             1.0.0
- * @package           Wp_Site_Options
+ * @package           wp-gutenberg-site-options
  *
  * @wordpress-plugin
  * Plugin Name:       WP Gutenberg Site Options
@@ -25,8 +25,22 @@
  * Domain Path:       /languages
  */
 
+declare( strict_types = 1 );
+
+namespace WP_GSO;
+
+use WP_GSO\Admin;
+
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
+define( 'WP_GSO_DIR', plugin_dir_path(__FILE__) );
+define( 'WP_GSO_BUILD_PATH', plugin_dir_url(__FILE__) );
+
+require_once WP_GSO_DIR . '/classes/class-admin.php';
+
+if ( class_exists( '\\WP_GSO\\Admin' ) ) {
+  Admin::init();
+}

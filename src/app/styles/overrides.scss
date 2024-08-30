@@ -1,0 +1,20 @@
+//--------------------------------------------------------------
+// Override styles for our options page.
+//--------------------------------------------------------------
+
+// Help keep the spacing consistent.
+#wpcontent {
+  margin-right: 20px;
+}
+
+// Match the Block Editor background.
+#wpwrap {
+  background: #fff;
+}
+
+// Keep the snackbar floted to the bottom of the screen.
+.components-snackbar-list,
+.wp-gso__doing-things {
+  position: fixed;
+  bottom: 2.625rem;
+}

@@ -1,5 +1,6 @@
 # Log files
 *.log
+.DS_Store
 
 # All plugins
 #
@@ -13,11 +14,12 @@
 # uncomment the next line
 #/wp-content/themes
 
-# Composer
+# Assets
 /vendor
+node_modules
 
 # Build
 /build
 
 # IDE
-/.vscode
+.vscode
