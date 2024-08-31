@@ -15,7 +15,7 @@ const SiteOptions = () => {
     <div>
       <Notices />
 
-      <h1>Gutenberg-powered Site Options</h1>
+      <h1>{__('Gutenberg-powered Site Options', 'wp-gutenberg-site-options')}</h1>
 
       <TextControl
         label={__('Title', 'wp-gutenberg-site-options')}
