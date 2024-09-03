@@ -2,7 +2,7 @@
 A WordPress Plugin that corresponds to a blog post [COMING SOON] on my
 site which creates a Gutenberg-powered Site Options page utilizing Gutenberg UI.
 
-![screenshot for end result](./docs/assets/demo-screenshot.png)
+![screenshot for end result](docs/assets/demo-screenshot.png)
 
 ## Setup
 Run `nvm install` and `npm run build` for your production-ready plugin or `npm run start`
